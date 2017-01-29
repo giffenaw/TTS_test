@@ -1,0 +1,39 @@
+1.
+cd images
+cd clipart
+cd food
+
+2.
+cd ..
+cd ..
+cd ..
+(or just cd)
+cd e-texts
+cd poe,edgarallen
+
+3.
+ls
+
+4.
+cd
+cd images
+pwd
+
+5.
+mkdir photographs
+
+6.
+cd photographs
+touch sunrise.jpg
+
+7.
+mv sunrise.jpg ..
+
+8.
+cd
+cd monkeys
+cd like
+subl .
+
+9.
+rm bananas.html

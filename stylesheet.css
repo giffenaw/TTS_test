@@ -1,0 +1,106 @@
+h1{
+	font-family: 'Rubik', sans-serif;
+	background-color: indigo;
+	color: lightblue;
+	font-size: 3em;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+body{
+	margin: 10px;
+	background-image: url('dark-wide.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+#portrait{
+	background-image: url(alex-link.jpg);
+	background-position: center center;
+	background-size: cover;
+	border: 0;
+	width: 400px;
+	height: 400px;
+	float: right;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+h2{
+	font-size: 30px;
+	font-family: 'rubik', sans-serif;
+	color: deepskyblue;
+}
+
+h3{
+	font-size: 30px;
+	font-family: 'Rubik', sans-serif;
+	color: darkgrey;
+}
+
+ul{
+	font-family: 'Rubik', sans-serif;
+	color: white;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 22px;
+}
+
+a:visited{
+	color: pink;
+}
+
+.circleShape{
+	border-radius: 50%;
+}
+
+.navbar-fixed-top {
+    min-height: 60px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 60px;
+}
+
+.navbar .navbar-brand{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 60px;
+	font-weight: bold;
+}
+
+/*.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus{
+	background-color: silver;
+	color: purple;
+}
+*/
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus{
+	background-color: silver;
+	color: purple;
+	font-weight: bold;
+}
+
+#aboutme,
+#projects{
+	top: 10;
+	left: 0;
+}
+
+#aboutme h2,
+#projects h2{
+	font-family: 'Rubik', sans-serif;
+	color: skyblue;
+	padding: 5% 1%;
+	padding-bottom: 2%;
+	font-weight: bold;
+	font-size: 35px;
+}
